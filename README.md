@@ -1,14 +1,12 @@
 
 # MEDToolBox
- <small>
- MEDToolBox is your medical toolbox for maxillofacial preoperative planning.
- </small>
+###MEDToolBox is your medical toolbox for maxillofacial preoperative planning.
  
 ***
 
 ## Brief Introduction
  <small>
- MEDToolBox is your medical toolbox for maxillofacial preoperative planning. My first impression of the software engineer. It means a milestone to me. This software is a preoperative planning system based on VTK&ITK. It includes many functions related to cranial and maxillofacial surgery. The use of the implicit function to make guide plane is an innovative function, which makes it possible to get any size and shape of the maxillofacial mesh. As a preoperative planning the MEDToolBox has many modes to complete a series of maxillofacial operation, such as reflection mode guideplane mode and collision detection mode.
+ * MEDToolBox is your medical toolbox for maxillofacial preoperative planning. My first impression of the software engineer. It means a milestone to me. This software is a preoperative planning system based on VTK&ITK. It includes many functions related to cranial and maxillofacial surgery. The use of the implicit function to make guide plane is an innovative function, which makes it possible to get any size and shape of the maxillofacial mesh. As a preoperative planning the MEDToolBox has many modes to complete a series of maxillofacial operation, such as reflection mode guideplane mode and collision detection mode.
  </small>
  
  ![image](https://github.com/RuojiWang/MEDToolBox/raw/Upload-Files/images-folder/switch-meun.png)
@@ -16,7 +14,12 @@
 
 ##software structure
  <small>
- The interface of the MEDToolBox is developed by using QT framework technology, the logic part of the system is based on VTK open source library. The system can be divided into interactor, renderer, render window and other components corresponding to data processing, rendering and display.If we look at the system from the functional view, The system can also be divided into the following five modules: file module, measurement module, guide plane module, reflection module and collision detection module. Switch between the five modules can achieve a series of complex maxillofacial preoperative design and planning operation. The five modules correspond to the five groups interactive menu, such design reference the architecture of VTK, making the structure of the entire system becomes more clear, more easy to maintain and less coupling. And such design also So benefits the stability and robustness of the system. Each interactor registers an event listener, when the there is a warning or error, the messages will be writed into system log, these message will help us restore use scene and maintenance the system. Each interactor inherit from the VTK interactive class while using QT signals and slots mechanism implementation of the right mouse button menu function.
+ * The interface of the MEDToolBox is developed by using QT framework technology, the logic part of the system is based on VTK open source library. 
+ * The system can be divided into interactor, renderer, render window and other components corresponding to data processing, rendering and display.
+ * If we look at the system from the functional view, The system can also be divided into the following five modules: file module, measurement module, guide plane module, reflection module and collision detection module. Switch between the five modules can achieve a series of complex maxillofacial preoperative design and planning operation. 
+ * The five modules correspond to the five groups interactive menu, such design reference the architecture of VTK, making the structure of the entire system becomes more clear, more easy to maintain and less coupling. And such design also So benefits the stability and robustness of the system. 
+ * Each interactor registers an event listener, when the there is a warning or error, the messages will be writed into system log, these message will help us restore use scene and maintenance the system.
+ * Each interactor inherit from the VTK interactive class while using QT signals and slots mechanism implementation of the right mouse button menu function.
  </small>
  
  ![image](https://github.com/RuojiWang/MEDToolBox/raw/Upload-Files/images-folder/function-distribution-map.png)
@@ -34,8 +37,8 @@
 ## Runtime Environment
  <small>
  This software is based on VTK5.2 ITK4.4 and QT4.8(you may need QtDesigner or QTCreator to make QT more easy). 
- * 1 For Linux, you may cmake it yourself. Use Google to find out how to camke VTK5.2 and ITK4.4 for Linux.  
- * 2 For Windows, you could download dll&lib from https://my.pcloud.com/publink/show?code=XZprOfZXDY03wBqtpS3eUctlW8hNRc3rMNX (VS2010 or other versions is recommended). Or you can use Google to find out how to camke VTK5.2 and ITK4.4 for windows. 
+ * 1 For Linux, you may cmake it yourself. Use Google to find out how to cmake VTK5.2 and ITK4.4 for Linux.  
+ * 2 For Windows, you could download dll&lib from https://my.pcloud.com/publink/show?code=XZprOfZXDY03wBqtpS3eUctlW8hNRc3rMNX (VS2010 or other versions is recommended). Or you can use Google to find out how to cmake VTK5.2 and ITK4.4 for windows. 
  </small>
 
 ***
@@ -80,7 +83,7 @@
  * 6 What else do you want to express beside above?
   * I think the GitHub means a new land for my software career. It's the first time I take part in the social software development. I have little experience I may commit many mistakes. But what's more important, I am willing to listen to any advice and work harder.
  * 7 Your runtime environment for Linux and Windows seems too simple?
-  * Actually I only develop MEDToolBox on Windows, so I upload dll&lib I compile on the pcloud, I am not familiar with Linux environment configuration, But I guess it has many in common with that on Windows. If I write the CMake process on Windows or Linux there, the file will be too long. So I only provide dll&lib which I compile here, for other things, use the Google you will get them, not that hard. 
+  * Actually I only develop MEDToolBox on Windows, so I upload dll&lib I compile on the pcloud, I am not familiar with Linux environment configuration, But I guess it has many in common with that on Windows. If I write the cmake process on Windows or Linux there, the file will be too long. So I only provide dll&lib which I compile here, for other things, use the Google you will get them, not that hard. 
  </small>
  
 ***
