@@ -1,15 +1,23 @@
+
 # MEDToolBox
- <small>MEDToolBox is your medical toolbox for maxillofacial preoperative planning.</small>
+ <small>
+ MEDToolBox is your medical toolbox for maxillofacial preoperative planning.
+ </small>
+ 
 ***
 
 ## Brief Introduction
- <small>MEDToolBox is your medical toolbox for maxillofacial preoperative planning. My first impression of the software engineer. It means a milestone to me. This software is a preoperative planning system based on VTK&ITK. It includes many functions related to cranial and maxillofacial surgery. The use of the implicit function to make guide plane is an innovative function, which makes it possible to get any size and shape of the maxillofacial mesh. As a preoperative planning the MEDToolBox has many modes to complete a series of maxillofacial operation, such as reflection mode guideplane mode and collision detection mode.</small>
+ <small>
+ MEDToolBox is your medical toolbox for maxillofacial preoperative planning. My first impression of the software engineer. It means a milestone to me. This software is a preoperative planning system based on VTK&ITK. It includes many functions related to cranial and maxillofacial surgery. The use of the implicit function to make guide plane is an innovative function, which makes it possible to get any size and shape of the maxillofacial mesh. As a preoperative planning the MEDToolBox has many modes to complete a series of maxillofacial operation, such as reflection mode guideplane mode and collision detection mode.
+ </small>
  
  ![image](https://github.com/RuojiWang/MEDToolBox/raw/Upload-Files/images-folder/switch-meun.png)
 ***
 
 ##software structure
- <small>The interface of the MEDToolBox is developed by using QT framework technology, the logic part of the system is based on VTK open source library. The system can be divided into interactor, renderer, render window and other components corresponding to data processing, rendering and display.If we look at the system from the functional view, The system can also be divided into the following five modules: file module, measurement module, guide plane module, reflection module and collision detection module. Switch between the five modules can achieve a series of complex maxillofacial preoperative design and planning operation. The five modules correspond to the five groups interactive menu, such design reference the architecture of VTK, making the structure of the entire system becomes more clear, more easy to maintain and less coupling. And such design also So benefits the stability and robustness of the system. Each interactor registers an event listener, when the there is a warning or error, the messages will be writed into system log, these message will help us restore use scene and maintenance the system. Each interactor inherit from the VTK interactive class while using QT signals and slots mechanism implementation of the right mouse button menu function.</small>
+ <small>
+ The interface of the MEDToolBox is developed by using QT framework technology, the logic part of the system is based on VTK open source library. The system can be divided into interactor, renderer, render window and other components corresponding to data processing, rendering and display.If we look at the system from the functional view, The system can also be divided into the following five modules: file module, measurement module, guide plane module, reflection module and collision detection module. Switch between the five modules can achieve a series of complex maxillofacial preoperative design and planning operation. The five modules correspond to the five groups interactive menu, such design reference the architecture of VTK, making the structure of the entire system becomes more clear, more easy to maintain and less coupling. And such design also So benefits the stability and robustness of the system. Each interactor registers an event listener, when the there is a warning or error, the messages will be writed into system log, these message will help us restore use scene and maintenance the system. Each interactor inherit from the VTK interactive class while using QT signals and slots mechanism implementation of the right mouse button menu function.
+ </small>
  
  ![image](https://github.com/RuojiWang/MEDToolBox/raw/Upload-Files/images-folder/function-distribution-map.png)
  ![image](https://github.com/RuojiWang/MEDToolBox/raw/Upload-Files/images-folder/file-mode-interface.png)
@@ -24,31 +32,55 @@
 ***
 
 ## Runtime Environment
+ <small>
  This software is based on VTK5.2 ITK4.4 and QT4.8(you may need QtDesigner or QTCreator to make QT more easy). 
  * 1 For Linux, you may cmake it yourself. Use Google to find out how to camke VTK5.2 and ITK4.4 for Linux.  
  * 2 For Windows, you could download dll&lib from https://my.pcloud.com/publink/show?code=XZprOfZXDY03wBqtpS3eUctlW8hNRc3rMNX (VS2010 or other versions is recommended). Or you can use Google to find out how to camke VTK5.2 and ITK4.4 for windows. 
+ </small>
+
 ***
 
 ## File Catalog
+ <small>
  MEDToolBox.rar include 3 types of files.
  * 1 STLfiles folder(include stl files use for test)
  * 2 MEDToolBox files(includes MEDToolBox.sln MEDToolBox.sdf) 
  * 3 MEDToolBox folder(include almost all source code). 
+ </small>
+
 ***
 
 ## Use&Warm Reminder
- * 1 For windows put the ITK VTK and QT folder the same catalog(open MEDToolBox.sln with txt you will know why). 
+ <small>
+ * 1 For windows put the ITK VTK and QT folder the same catalog like the following picture shows(open MEDToolBox.sln with txt you will know why). 
  * 2 Rebuild it in the DEBUG&win32 mode.
  * 3 IN CASE YOU FAIL BUILD&COMPILE TRY FOLLOWING
    * 1 .suo .ncb .user(generated by VS2010). 
    * 2 debug or release catalog and some .obj files. 
    * 3 generatedfiles catalog(generated by QT). 
  * 4 BUT I GUESS YOU WILL NOT MEET ABOVE I THINK I HAVE DONE THAT FOR YOU.
- 
+ </small>
+
  ![image](https://github.com/RuojiWang/MEDToolBox/raw/Upload-Files/images-folder/how-to-place-folders.png)
 ***
 
 ## FAQ
- <small>For any question or detailed information:MY EMAIL 1035456235@qq.com  I am willing to help you :).
- MEDToolBox folder includes more than 100 files that's why I upload a rar file. Of course I could remove some files, for example I could remove CollisionDetectionInteractorStyle1.h and CollisionDetectionInteractorStyle1.cpp. In fact I only use CollisionDetectionInteractorStyle6.h and CollisionDetectionInteractorStyle6.cpp, but in my opinion the CollisionDetectionInteractorStyle1 is the original version of the CollisionDetectionInteractorStyle6, so I keep it in case I may use it. Maybe that is a little weird, but I guess every developer has his won weird things~</small>
+ <small>
+ * 1 Why are you upload rar file instead of a folder which includes all the source code?
+  * Files in the MEDToolBox folder are more than 100, which is not all by GitHub.
+ * 2 What's you Email Address, so I can contact with you?
+  * For any question or detailed information:MY EMAIL 1035456235@qq.com. I am willing to help you :).
+ * 3 The files in MEDToolBox seems a little mess?
+  * MEDToolBox folder includes more than 100 files that's why I upload a rar file. Of course I could remove some files, for    example I could remove CollisionDetectionInteractorStyle1.h and CollisionDetectionInteractorStyle1.cpp. In fact I only use CollisionDetectionInteractorStyle6.h and CollisionDetectionInteractorStyle6.cpp, but in my opinion the CollisionDetectionInteractorStyle1 is the original version of the CollisionDetectionInteractorStyle6, so I keep it in case I may use it. Maybe that is a little weird, but I guess every developer has his won weird things like this habit for me~ I may remove these "redundant files" when the work is done.
+ * 4 What's the advantage and disadvantage of the MEDToolBox?
+  * The advantange of the MEDToolBox is the use of the implicit function to make guide plane is an innovative function, which makes it possible to get any size and shape of the maxillofacial mesh. As a preoperative planning the MEDToolBox has many modes to complete a series of maxillofacial operation, such as reflection mode guideplane mode and collision detection mode.
+  * The disadvantage of the MEDToolBox is that the VTK is designed as a common interactive framework, so that VTK has to take many things into consideration, which cause the low inefficient. Unless redesign or rewrite VTK from the bottom, VTK can not be effective.
+ * 5 Why is the GUI(your picture) shows MEDToolBox3 not MEDToolBox?
+  * After the reconstruction and system-level adjustment, I guess now MEDToolBox is its 3.0 version.
+ * 6 What else do you want to express beside above?
+  * I think the GitHub means a new land for my software career. It's the first time I take part in the social software development. I have little experience I may commit many mistakes. But what's more important, I am willing to listen to any advice and work harder.
+ * 7 Your runtime environment for Linux and Windows seems too simple?
+  * Actually I only develop MEDToolBox on Windows, so I upload dll&lib I compile on the pcloud, I am not familiar with Linux environment configuration, But I guess it has many in common with that on Windows. If I write the CMake process on Windows or Linux there, the file will be too long. So I only provide dll&lib which I compile here, for other things, use the Google you will get them, not that hard. 
+ </small>
+ 
 ***
