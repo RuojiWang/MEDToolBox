@@ -23,17 +23,7 @@
  The five modules correspond to the five groups interactive menu, such design reference the architecture of VTK, making the structure of the entire system becomes more clear, more easy to maintain and less coupling. And such design also So benefits the stability and robustness of the system. 
  
  Each interactor registers an event listener, when the there is a warning or error, the messages will be writed into system log, these message will help us restore use scene and maintenance the system. Each interactor inherit from the VTK interactive class while using QT signals and slots mechanism implementation of the right mouse button menu function.
- 
- ![image](https://github.com/RuojiWang/MEDToolBox/raw/Upload-Files/images-folder/function-distribution-map.png)
- ![image](https://github.com/RuojiWang/MEDToolBox/raw/Upload-Files/images-folder/file-mode-interface.png)
- ![image](https://github.com/RuojiWang/MEDToolBox/raw/Upload-Files/images-folder/measurement-boundbox-interface.png)
- ![image](https://github.com/RuojiWang/MEDToolBox/raw/Upload-Files/images-folder/reflection-mode-interface.png)
- ![image](https://github.com/RuojiWang/MEDToolBox/raw/Upload-Files/images-folder/collision-detection-mode-interface.png)
- ![image](https://github.com/RuojiWang/MEDToolBox/raw/Upload-Files/images-folder/collision-detection-mode-detection-interface.png)
- ![image](https://github.com/RuojiWang/MEDToolBox/raw/Upload-Files/images-folder/guideplane-mode-interface.png)
- ![image](https://github.com/RuojiWang/MEDToolBox/raw/Upload-Files/images-folder/guideplane-mode-draw-surface-curve-interface.png)
- ![image](https://github.com/RuojiWang/MEDToolBox/raw/Upload-Files/images-folder/clip-mesh-from-guideplane-mode-interface-1.png)
- ![image](https://github.com/RuojiWang/MEDToolBox/raw/Upload-Files/images-folder/thickened-mesh-from-guideplane-mode-interface.png)
+
 ***
 
 ## Runtime Environment
