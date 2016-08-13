@@ -1,9 +1,13 @@
 # MEDToolBox
 ## MEDToolBox is your medical toolbox for maxillofacial preoperative planning.
-### ![image](https://github.com/RuojiWang/MEDToolBox/raw/Upload-Files/images-folder/switch-meun.png)
 
 ## Brief Introduction
 ### MEDToolBox is your medical toolbox for maxillofacial preoperative planning. My first impression of the software engineer. It means a milestone to me. This software is a preoperative planning system based on VTK&ITK. It includes many functions related to cranial and maxillofacial surgery. The use of the implicit function to make guide plane is an innovative function, which makes it possible to get any size and shape of the maxillofacial mesh. As a preoperative planning the MEDToolBox has many modes to complete a series of maxillofacial operation, such as reflection mode guideplane mode and collision detection mode.
+### ![image](https://github.com/RuojiWang/MEDToolBox/raw/Upload-Files/images-folder/switch-meun.png)
+
+##software structure
+### The interface of the MEDToolBox is developed by using QT framework technology, the logic part of the system is based on VTK open source library. The system can be divided into interactor, renderer, render window and other components corresponding to data processing, rendering and display.If we look at the system from the functional view, The system can also be divided into the following five modules: file module, measurement module, guide plane module, reflection module and collision detection module. Switch between the five modules can achieve a series of complex maxillofacial preoperative design and planning operation. The five modules correspond to the five groups interactive menu, such design reference the architecture of VTK, making the structure of the entire system becomes more clear, more easy to maintain and less coupling. And such design also So benefits the stability and robustness of the system. Each interactor registers an event listener, when the there is a warning or error, the messages will be writed into system log, these message will help us restore use scene and maintenance the system. Each interactor inherit from the VTK interactive class while using QT signals and slots mechanism implementation of the right mouse button menu function.
+### ![image](https://github.com/RuojiWang/MEDToolBox/raw/Upload-Files/images-folder/function-distribution-map.png)
 ### ![image](https://github.com/RuojiWang/MEDToolBox/raw/Upload-Files/images-folder/file-mode-interface.png)
 ### ![image](https://github.com/RuojiWang/MEDToolBox/raw/Upload-Files/images-folder/measurement-boundbox-interface.png)
 ### ![image](https://github.com/RuojiWang/MEDToolBox/raw/Upload-Files/images-folder/reflection-mode-interface.png)
