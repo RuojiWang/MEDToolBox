@@ -1,9 +1,8 @@
-
-# MEDToolBox
-###MEDToolBox is your medical toolbox for maxillofacial preoperative planning.
+# <B>MEDToolBox</B>
+### MEDToolBox is your medical toolbox for maxillofacial preoperative planning.
 ***
 
-## Brief Introduction
+## <B>Brief Introduction</B>
  <small>
  MEDToolBox is your medical toolbox for maxillofacial preoperative planning. My first impression of the software engineer. It means a milestone to me. This software is a preoperative planning system based on VTK&ITK. It includes many functions related to cranial and maxillofacial surgery. The use of the implicit function to make guide plane is an innovative function, which makes it possible to get any size and shape of the maxillofacial mesh. As a preoperative planning the MEDToolBox has many modes to complete a series of maxillofacial operation, such as reflection mode guideplane mode and collision detection mode.
  </small>
@@ -11,7 +10,7 @@
  ![image](https://github.com/RuojiWang/MEDToolBox/raw/Upload-Files/images-folder/switch-meun.png)
 ***
 
-##software structure
+## <B>software structure</B>
  <small>
  * The interface of the MEDToolBox is developed by using QT framework technology, the logic part of the system is based on VTK open source library. 
  * The system can be divided into interactor, renderer, render window and other components corresponding to data processing, rendering and display.
@@ -33,7 +32,7 @@
  ![image](https://github.com/RuojiWang/MEDToolBox/raw/Upload-Files/images-folder/thickened-mesh-from-guideplane-mode-interface.png)
 ***
 
-## Runtime Environment
+## <B>Runtime Environment</B>
  <small>
  This software is based on VTK5.2 ITK4.4 and QT4.8(you may need QtDesigner or QTCreator to make QT more easy). 
  * 1 For Linux, you may cmake it yourself. Use Google to find out how to cmake VTK5.2 and ITK4.4 for Linux.  
@@ -42,7 +41,7 @@
 
 ***
 
-## File Catalog
+## <B>File Catalog</B>
  <small>
  MEDToolBox.rar include 3 types of files.
  * 1 STLfiles folder(include stl files use for test)
@@ -52,7 +51,7 @@
 
 ***
 
-## Use&Warm Reminder
+## <B>Use&Warm Reminder</B>
  <small>
  * 1 For windows put the ITK VTK and QT folder the same catalog like the following picture shows(open MEDToolBox.sln with txt you will know why). 
  * 2 Rebuild it in the DEBUG&win32 mode.
@@ -68,7 +67,7 @@
  ![image](https://github.com/RuojiWang/MEDToolBox/raw/Upload-Files/images-folder/how-to-place-folders.png)
 ***
 
-## FAQ
+## <B>FAQ</B>
  <ol>
    <li type="disc">1 Why are you upload rar file instead of a folder which includes all the source code?</li>
    <li type="circle">Files in the MEDToolBox folder are more than 100, which is not all by GitHub.</li>
