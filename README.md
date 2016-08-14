@@ -12,8 +12,9 @@
 
  
  <div  align="center">
- <img src="https://github.com/RuojiWang/MEDToolBox/raw/Modify-Source-Code/images-folder/switch-meun.png" height="624*1.5" width="658*1.5"/>
+ <img src="https://github.com/RuojiWang/MEDToolBox/raw/Modify-Source-Code/images-folder/switch-meun.png" height="624*1.8" width="658*1.8"/>
  </div>
+ <p style="text-align:center"> main interface of the MEDToolBox</p>
  
 ***
 
