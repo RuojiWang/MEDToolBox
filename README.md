@@ -14,7 +14,7 @@
  <div  align="center">
  <img src="https://github.com/RuojiWang/MEDToolBox/raw/Modify-Source-Code/images-folder/switch-meun.png" height="749" width="790"/>
  </div>
- <center>main interface of the MEDToolBox</center>
+ <center> main interface of the MEDToolBox</center>
  
 ***
 
