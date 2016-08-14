@@ -14,7 +14,9 @@
  <div  align="center">
  <img src="https://github.com/RuojiWang/MEDToolBox/raw/Modify-Source-Code/images-folder/switch-meun.png" height="749" width="790"/>
  </div>
- <center> main interface of the MEDToolBox</center>
+ <center>
+ main interface of the MEDToolBox
+ </center>
  
 ***
 
@@ -67,25 +69,25 @@
 
 ## FAQ
  <ol>
-   <li type="disc">1 Why are you upload rar file instead of a folder which includes all the source code?</li>
+   <li type="disc">Why are you upload rar file instead of a folder which includes all the source code?</li>
    <li type="circle">Files in the MEDToolBox folder are more than 100, which is not all by GitHub.</li>
    
-   <li type="disc">2 What's you Email Address, so I can contact with you?</li>
+   <li type="disc">What's you Email Address, so I can contact with you?</li>
    <li type="circle">For any question or detailed information:MY EMAIL 1035456235@qq.com. I am willing to help you :).</li>
 
-   <li type="disc">3 The files in MEDToolBox seems a little mess?</li>
+   <li type="disc">The files in MEDToolBox seems a little mess?</li>
    <li type="circle">MEDToolBox folder includes more than 100 files that's why I upload a rar file. Of course I could remove some files, for    example I could remove CollisionDetectionInteractorStyle1.h and CollisionDetectionInteractorStyle1.cpp. In fact I only use CollisionDetectionInteractorStyle6.h and CollisionDetectionInteractorStyle6.cpp, but in my opinion the CollisionDetectionInteractorStyle1 is the original version of the CollisionDetectionInteractorStyle6, so I keep it in case I may use it. Maybe that is a little weird, but I guess every developer has his won weird things like this habit for me.~ I may remove these "redundant files" when the work is done.</li>
 
-   <li type="disc">4 What's the advantage and disadvantage of the MEDToolBox?</li>
+   <li type="disc">What's the advantage and disadvantage of the MEDToolBox?</li>
    <li type="circle">The advantange of the MEDToolBox is the use of the implicit function to make guide plane is an innovative function, which makes it possible to get any size and shape of the maxillofacial mesh. As a preoperative planning the MEDToolBox has many modes to complete a series of maxillofacial operation, such as reflection mode guideplane mode and collision detection mode.;The disadvantage of the MEDToolBox is that the VTK is designed as a common interactive framework, so that VTK has to take many things into consideration, which cause the low inefficient. Unless redesign or rewrite VTK from the bottom, VTK can not be effective.</li>
 
-   <li type="disc">5 Why is the GUI(your picture) shows MEDToolBox3 not MEDToolBox?</li>
+   <li type="disc">Why is the GUI(your picture) shows MEDToolBox3 not MEDToolBox?</li>
    <li type="circle">After the reconstruction and system-level adjustment, I guess now MEDToolBox is its 3.0 version.</li>
 
-   <li type="disc">6 What else do you want to express beside above?</li>
+   <li type="disc">What else do you want to express beside above?</li>
    <li type="circle">I think the GitHub means a new land for my software career. It's the first time I take part in the social software development. I have little experience I may commit many mistakes. But what's more important, I am willing to listen to any advice and work harder.</li>
 
-   <li type="disc">7 Your runtime environment for Linux and Windows seems too simple?</li>
+   <li type="disc">Your runtime environment for Linux and Windows seems too simple?</li>
    <li type="circle">Actually I only develop MEDToolBox on Windows, so I upload dll&lib I compile on the pcloud, I am not familiar with Linux environment configuration, But I guess it has many in common with that on Windows. If I write the cmake process on Windows or Linux there, the file will be too long. So I only provide dll&lib which I compile here, for other things, use the Google you will get them, not that hard.</li>
  </ol>
 ***
