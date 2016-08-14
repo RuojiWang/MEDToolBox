@@ -10,12 +10,14 @@
  
  As a preoperative planning the MEDToolBox has many modes to complete a series of maxillofacial operation, such as reflection mode guideplane mode and collision detection mode.
 
+ <html>
  <div  align="center">
  <img src="https://github.com/RuojiWang/MEDToolBox/raw/Modify-Source-Code/images-folder/switch-meun.png" height="814" width="868"/>
  </div>
  <div>
  <p align="center">main interface of the MEDToolBox</p>
  </div>
+ </html>
 
 ***
 
@@ -28,6 +30,68 @@
  The five modules correspond to the five groups interactive menu, such design reference the architecture of VTK, making the structure of the entire system becomes more clear, more easy to maintain and less coupling. And such design also So benefits the stability and robustness of the system. 
  
  Each interactor registers an event listener, when the there is a warning or error, the messages will be writed into system log, these message will help us restore use scene and maintenance the system. Each interactor inherit from the VTK interactive class while using QT signals and slots mechanism implementation of the right mouse button menu function.
+ 
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>notesforlightbox实例</title>
+    <script src="js/jquery-1.4.2.min.js"></script>
+    <script src="js/jquery.notesforlightbox.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/jquery.notesforlightbox.css" />
+    <style type="text/css">
+           body{font-size:13px}
+           .divFrame{width:380px;border:solid 1px #666}
+           .divFrame .divTitle{padding:5px;background-color:#eee;font-weight:bold}
+           .divFrame .divContent{padding:8px;line-height:1.6em}
+           .divFrame .divContent .divPics{background-color: #777;padding: 10px;width: 344px}
+           .divFrame .divContent .divPics ul{list-style: none;padding:0px;margin:0px}
+           .divFrame .divContent .divPics ul li{display: inline;}
+           .divFrame .divContent .divPics ul img{border: 5px solid #444;border-width: 5px;width:100px;height:100px}
+           .divFrame .divContent .divPics ul a:hover img{border:5px solid #fff;border-width: 5px;color: #fff;}
+           .divFrame .divContent .divPics ul a:hover{color: #fff;}
+    </style>
+    <script type="text/javascript">
+        $(function() {
+            $('.divPics a').lightBox({
+                overlayBgColor: "#666", //浏览图片时的背景色
+                overlayOpacity: 0.5,    //背景色的透明度
+                containerResizeSpeed: 600 //图片切换时的速度;
+            })
+        })
+    </script>
+</head>
+<body>
+    <div class="divFrame">
+         <div class="divTitle">
+              我的相册
+         </div>
+         <div class="divContent">
+              <div class="divPics">
+                   <ul>
+                      <li><a href="images/img01.jpg" title="switch-meun.png">
+                             <img src="https://github.com/RuojiWang/MEDToolBox/raw/Upload-Files/images-folder/switch-meun.png" alt="" />
+                      </a></li>
+                      <li><a href="images/img02.jpg" title="switch-meun.png">
+                             <img src="https://github.com/RuojiWang/MEDToolBox/raw/Upload-Files/images-folder/switch-meun.png" alt="" />
+                      </a></li>
+                      <li><a href="images/img03.jpg" title="switch-meun.png">
+                             <img src="https://github.com/RuojiWang/MEDToolBox/raw/Upload-Files/images-folder/switch-meun.png" alt="" />
+                      </a></li>
+                      <li><a href="images/img04.jpg" title="switch-meun.png">
+                             <img src="https://github.com/RuojiWang/MEDToolBox/raw/Upload-Files/images-folder/switch-meun.png" alt="" />
+                      </a></li>
+                      <li><a href="images/img05.jpg" title="switch-meun.png">
+                             <img src="https://github.com/RuojiWang/MEDToolBox/raw/Upload-Files/images-folder/switch-meun.png" alt="" />
+                      </a></li>
+                      <li><a href="images/img06.jpg" title="switch-meun.png">
+                             <img src="https://github.com/RuojiWang/MEDToolBox/raw/Upload-Files/images-folder/switch-meun.png" alt="" />
+                      </a></li>
+                   </ul>
+              </div>
+         </div>
+    </div>
+</body>
+</html>
 
 ***
 
