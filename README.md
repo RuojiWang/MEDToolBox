@@ -4,11 +4,13 @@
 
 ## Brief Introduction
  
- MEDToolBox is your medical toolbox for maxillofacial preoperative planning. My first impression of the software engineer. It comes from a national 863 plan in China. This software is a preoperative planning system based on VTK&ITK. 
+ <small>
+ * MEDToolBox is your medical toolbox for maxillofacial preoperative planning. My first impression of the software engineer. It comes from a national 863 plan in China. This software is a preoperative planning system based on VTK&ITK. 
  
- It includes many functions related to cranial and maxillofacial surgery. The use of the implicit function to make guide plane is an innovative function, which makes it possible to get any size and shape of the maxillofacial mesh. 
+ * It includes many functions related to cranial and maxillofacial surgery. The use of the implicit function to make guide plane is an innovative function, which makes it possible to get any size and shape of the maxillofacial mesh. 
  
- As a preoperative planning the MEDToolBox has five modes to complete a series of maxillofacial operation, such as reflection mode guideplane mode and collision detection mode. The following picture shows the function distribution.
+ * As a preoperative planning the MEDToolBox has five modes to complete a series of maxillofacial operation, such as reflection mode guideplane mode and collision detection mode. The following picture shows the function distribution.
+ </small>
 
  <html>
  <div  align="center">
@@ -19,27 +21,28 @@
 
 ## Software Structure
 
- The interface of the MEDToolBox is developed by using QT framework technology, the logic part of the system is based on VTK open source library. 
+ <small>
+ * The interface of the MEDToolBox is developed by using QT framework technology, the logic part of the system is based on VTK open source library. 
  
- The system can be divided into interactor, renderer, render window and other components corresponding to data processing, rendering and display. If we look at the system from the functional view, The system can also be divided into the following five modules: file module, measurement module, guide plane module, reflection module and collision detection module. Switch between the five modules can achieve a series of complex maxillofacial preoperative design and planning operation. 
+ * The system can be divided into interactor, renderer, render window and other components corresponding to data processing, rendering and display. If we look at the system from the functional view, The system can also be divided into the following five modules: file module, measurement module, guide plane module, reflection module and collision detection module. Switch between the five modules can achieve a series of complex maxillofacial preoperative design and planning operation. 
  
- The five modules correspond to the five groups interactive menu, such design reference the architecture of VTK, making the structure of the entire system becomes more clear, more easy to maintain and less coupling. And such design also So benefits the stability and robustness of the system. 
+ * The five modules correspond to the five groups interactive menu, such design reference the architecture of VTK, making the structure of the entire system becomes more clear, more easy to maintain and less coupling. And such design also So benefits the stability and robustness of the system. 
  
- Each interactor registers an event listener, when the there is a warning or error, the messages will be writed into system log, these message will help us restore use scene and maintenance the system. Each interactor inherit from the VTK interactive class while using QT signals and slots mechanism implementation of the right mouse button menu function.
+ * Each interactor registers an event listener, when the there is a warning or error, the messages will be writed into system log, these message will help us restore use scene and maintenance the system. Each interactor inherit from the VTK interactive class while using QT signals and slots mechanism implementation of the right mouse button menu function.
 
- The following ten pictures are divided into five groups, Each group contains two pictures. The five groups of pictures show what the interface looks like when you interact in that mode respectively. The five modes from top to bottom are: file mode, measurement mode, reflection mode, collision detection mode, guideplane mode.
- 
+ * The following ten pictures are divided into five groups, Each group contains two pictures. The five groups of pictures show what the interface looks like when you interact in that mode respectively. The five modes from top to bottom are: file mode, measurement mode, reflection mode, collision detection mode, guideplane mode.
+ </small>
 
- <img src="https://github.com/RuojiWang/MEDToolBox/raw/Modify-Source-Code/images-folder/switch-meun.png" height="407" width="434"/>
- <img src="https://github.com/RuojiWang/MEDToolBox/raw/Modify-Source-Code/images-folder/file-mode-interface.png" height="407" width="434"/>
- <img src="https://github.com/RuojiWang/MEDToolBox/raw/Modify-Source-Code/images-folder/measurement-boundbox-interface.png" height="407" width="434"/>
- <img src="https://github.com/RuojiWang/MEDToolBox/raw/Modify-Source-Code/images-folder/reflection-mode-interface.png" height="407" width="434"/>
- <img src="https://github.com/RuojiWang/MEDToolBox/raw/Modify-Source-Code/images-folder/collision-detection-mode-interface.png" height="407" width="434"/>
- <img src="https://github.com/RuojiWang/MEDToolBox/raw/Modify-Source-Code/images-folder/collision-detection-mode-detection-interface.png" height="407" width="434"/>
- <img src="https://github.com/RuojiWang/MEDToolBox/raw/Modify-Source-Code/images-folder/guideplane-mode-interface.png" height="407" width="434"/>
- <img src="https://github.com/RuojiWang/MEDToolBox/raw/Modify-Source-Code/images-folder/guideplane-mode-draw-surface-curve-interface.png" height="407" width="434"/>
- <img src="https://github.com/RuojiWang/MEDToolBox/raw/Modify-Source-Code/images-folder/clip-mesh-from-guideplane-mode-interface-1.png" height="407" width="434"/>
- <img src="https://github.com/RuojiWang/MEDToolBox/raw/Modify-Source-Code/images-folder/thickened-mesh-from-guideplane-mode-interface.png" height="407" width="434"/>
+ <img src="https://github.com/RuojiWang/MEDToolBox/raw/Modify-Source-Code/images-folder/switch-meun.png" height="385" width="410"/>
+ <img src="https://github.com/RuojiWang/MEDToolBox/raw/Modify-Source-Code/images-folder/file-mode-interface.png" height="385" width="410"/>
+ <img src="https://github.com/RuojiWang/MEDToolBox/raw/Modify-Source-Code/images-folder/measurement-boundbox-interface.png" height="385" width="410"/>
+ <img src="https://github.com/RuojiWang/MEDToolBox/raw/Modify-Source-Code/images-folder/reflection-mode-interface.png" height="385" width="410"/>
+ <img src="https://github.com/RuojiWang/MEDToolBox/raw/Modify-Source-Code/images-folder/collision-detection-mode-interface.png" height="385" width="410"/>
+ <img src="https://github.com/RuojiWang/MEDToolBox/raw/Modify-Source-Code/images-folder/collision-detection-mode-detection-interface.png" height="385" width="410"/>
+ <img src="https://github.com/RuojiWang/MEDToolBox/raw/Modify-Source-Code/images-folder/guideplane-mode-interface.png" height="385" width="410"/>
+ <img src="https://github.com/RuojiWang/MEDToolBox/raw/Modify-Source-Code/images-folder/guideplane-mode-draw-surface-curve-interface.png" height="385" width="410"/>
+ <img src="https://github.com/RuojiWang/MEDToolBox/raw/Modify-Source-Code/images-folder/clip-mesh-from-guideplane-mode-interface-1.png" height="385" width="410"/>
+ <img src="https://github.com/RuojiWang/MEDToolBox/raw/Modify-Source-Code/images-folder/thickened-mesh-from-guideplane-mode-interface.png" height="385" width="410"/>
  
 ***
 
