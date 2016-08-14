@@ -11,8 +11,8 @@
  As a preoperative planning the MEDToolBox has many modes to complete a series of maxillofacial operation, such as reflection mode guideplane mode and collision detection mode.
 
  
- <div  align="center">    
- <img src="https://RuojiWang/MEDToolBox/raw/Modify-Source-Code/images-folder/switch-meun.png" height="200" width="200" />
+ <div  align="center">
+ <img src="https://github.com/RuojiWang/MEDToolBox/raw/Modify-Source-Code/images-folder/switch-meun.png"/>
  </div>
  
 ***
