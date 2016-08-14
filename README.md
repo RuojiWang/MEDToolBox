@@ -13,13 +13,10 @@
  <div  align="center">
  <img src="https://github.com/RuojiWang/MEDToolBox/raw/Modify-Source-Code/images-folder/switch-meun.png" height="749" width="790"/>
  </div>
- 
- <center>居中对齐</center>
+ <div>
+ <p align="center">main interface of the MEDToolBox</p>
+ </div>
 
-<h1 style="text-align:center">居中对齐 <h1>
-
-<h1 style="text-align:right">居右对齐 <h1>
- 
 ***
 
 ## Software Structure
