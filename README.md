@@ -12,7 +12,7 @@
 
  <html>
  <div  align="center">
- <img src="https://github.com/RuojiWang/MEDToolBox/raw/Modify-Source-Code/images-folder/switch-meun.png" height="814" width="868"/>
+ <img src="https://github.com/RuojiWang/MEDToolBox/raw/Modify-Source-Code/images-folder/function-distribution-map.png"/>
  </div>
  <div>
  <p align="center">main interface of the MEDToolBox</p>
@@ -32,7 +32,7 @@
  Each interactor registers an event listener, when the there is a warning or error, the messages will be writed into system log, these message will help us restore use scene and maintenance the system. Each interactor inherit from the VTK interactive class while using QT signals and slots mechanism implementation of the right mouse button menu function.
  
 
- <img src="https://github.com/RuojiWang/MEDToolBox/raw/Modify-Source-Code/images-folder/function-distribution-map.png" height="407" width="434"/>
+ <img src="https://github.com/RuojiWang/MEDToolBox/raw/Modify-Source-Code/images-folder/switch-meun.png" height="407" width="434"/>
  <img src="https://github.com/RuojiWang/MEDToolBox/raw/Modify-Source-Code/images-folder/file-mode-interface.png" height="407" width="434"/>
  <img src="https://github.com/RuojiWang/MEDToolBox/raw/Modify-Source-Code/images-folder/measurement-boundbox-interface.png" height="407" width="434"/>
  <img src="https://github.com/RuojiWang/MEDToolBox/raw/Modify-Source-Code/images-folder/reflection-mode-interface.png" height="407" width="434"/>
