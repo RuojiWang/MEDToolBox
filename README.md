@@ -1,7 +1,7 @@
 # MEDToolBox
 ### MEDToolBox is your medical toolbox for maxillofacial preoperative planning.
-***
 
+***
 ## Brief Introduction
  
  <small>
