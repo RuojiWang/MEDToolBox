@@ -1,6 +1,6 @@
 <td bgcolor=#F0FFFF>
 # MEDToolBox
-### MEDToolBox is your medical toolbox for maxillofacial preoperative planning.
+## MEDToolBox is your medical toolbox for maxillofacial preoperative planning.
 
 ***
 ## Brief Introduction
