@@ -87,7 +87,7 @@
  ![image](https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/how-to-place-folders.png)
 ***
 
-##Lincense
+##License
 
 Copyright [2016] [RuojiWang of copyright owner]
 
