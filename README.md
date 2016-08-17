@@ -87,6 +87,17 @@
  ![image](https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/how-to-place-folders.png)
 ***
 
+##Update&version
+ <small>
+ * 2.0 integrated all interactive mode.
+ * 2.2 added log record function and registered listener event.
+ * 3.0 reconstructed all the code and mode.
+ * next version: repair the bug in the collision detection mode and guideplane mode.
+   * switch the collision detection function may cause file in the renderer remove. 
+   * implicit function may not get the craniofacial data mesh when input strange point data.
+ </small>
+***
+
 ##License
 
 Copyright [2016] [RuojiWang of copyright owner]
