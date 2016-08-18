@@ -86,7 +86,7 @@
 ***
 
 ##Update&version
- >I am busy recently recruiting, SO update should be quite slow.
+ >I am busy recently recruiting, So update should be quite slow.
  
  <small>
  * 2.0 integrated all interactive mode.
