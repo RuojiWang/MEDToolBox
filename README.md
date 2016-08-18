@@ -86,6 +86,8 @@
 ***
 
 ##Update&version
+ >I am busy recently recruiting, SO update should be quite slow.
+ 
  <small>
  * 2.0 integrated all interactive mode.
  * 2.2 added log record function and registered listener event.
@@ -94,13 +96,14 @@
    * switch the collision detection function may cause file in the renderer remove. 
    * implicit function may not get the craniofacial data mesh when input strange point data.
    * sometimes double click to open the right menu.
-   * sometimes file loaded rotate automaticly
+   * sometimes file loaded rotate automaticly.
  </small>
+
 ***
 
 ##License
 
-Copyright [2016] [RuojiWang of copyright owner]
+Copyright [2016] [RuojiWang of copyright owner | YeaTmeRet@gmail.com | 1035456235@qq.com]
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
