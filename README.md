@@ -95,6 +95,8 @@
  * next version: repair the bug in the collision detection mode and guideplane mode.
    * switch the collision detection function may cause file in the renderer remove. 
    * implicit function may not get the craniofacial data mesh when input strange point data.
+   * sometimes double click to open the right menu.
+   * sometimes file loaded rotate automaticly
  </small>
 ***
 
