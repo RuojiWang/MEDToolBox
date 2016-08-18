@@ -86,7 +86,7 @@
 ***
 
 ##Update&version
- >I am busy recently recruiting, so update should be quite slow.
+ >I am busy recruiting recently, so update should be quite slow.
  
  <small>
  * 2.0 integrated all interactive mode.
@@ -97,6 +97,7 @@
    * implicit function may not get the craniofacial data mesh when input strange point data.
    * sometimes double click to open the right menu.
    * sometimes file loaded rotate automaticly.
+   * add an automatic testing framework later.
  </small>
 
 ***
