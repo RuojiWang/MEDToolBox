@@ -87,6 +87,7 @@
 
 ##Update&version
  >I am busy recruiting recently, so update should be quite slow.
+ >I really want to optimize the underlying of the VTK but I do not know how to do it.
  
  <small>
  * 2.0 integrated all interactive mode.
@@ -97,7 +98,10 @@
    * implicit function may not get the craniofacial data mesh when input strange point data.
    * sometimes double click to open the right menu.
    * sometimes file loaded rotate automaticly.
+   * add feature of the force feedback device.
    * add an automatic testing framework later.
+   * merge the clip preview interface to the main interface to improve efficiency.
+   * modify the detail of the interaction ot the implicit function to improve efficiency.
  </small>
 
 ***
