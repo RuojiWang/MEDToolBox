@@ -45,6 +45,9 @@
  
  <img src="https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/guideplane-mode-interface.png" height="385" width="410"/>
  <img src="https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/guideplane-mode-draw-surface-curve-interface.png" height="385" width="410"/>
+
+ <img src="https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/clip-plane-from-guideplane-mode-interface1.png" height="385" width="410"/>
+ <img src="https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/clip-plane-from-guideplane-mode-interface2.png" height="385" width="410"/>
  
  <img src="https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/clip-mesh-from-guideplane-mode-interface-1.png" height="385" width="410"/>
  <img src="https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/thickened-mesh-from-guideplane-mode-interface.png" height="385" width="410"/>
