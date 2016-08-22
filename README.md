@@ -1,14 +1,12 @@
 <td bgcolor=#F0FFFF>
 # MEDToolBox
 ### MEDToolBox is your unique medical toolbox for maxillofacial preoperative planning.
- <html>
  <div>
- <img src="https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/MEDToolBox-is-your-unique-skill-1.png"/>
+ <img src="https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/MEDToolBox-is-your-unique-skill-1.png" height="540" width="410"/>
  </div>
  <div>
- <img src="https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/MEDToolBox-is-your-unique-skill-2.png"/>
+ <img src="https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/MEDToolBox-is-your-unique-skill-2.png" height="540" width="410"/>
  </div>
- </html>
 ***
 ## Brief Introduction
  
