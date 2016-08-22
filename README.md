@@ -1,7 +1,11 @@
 <td bgcolor=#F0FFFF>
 # MEDToolBox
-### MEDToolBox is your medical toolbox for maxillofacial preoperative planning.
-
+### MEDToolBox is your unique medical toolbox for maxillofacial preoperative planning.
+ <html>
+ <div  align="right">
+ <img src="https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/MEDToolBox-is-your-unique-skill.png"/>
+ </div>
+ </html>
 ***
 ## Brief Introduction
  
@@ -13,7 +17,6 @@
  * As a preoperative planning the MEDToolBox has five modes to complete a series of maxillofacial operation, such as reflection mode guideplane mode and collision detection mode. The following picture shows the function distribution.
  </small>
 
- <html>
  <div  align="center">
  <img src="https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/function-distribution-map.png"/>
  </div>
