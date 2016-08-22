@@ -133,7 +133,7 @@ limitations under the License.
    <li type="circle">Files in the MEDToolBox folder are more than 100, which is not all by GitHub.</li>
    
    <li type="disc">What's you Email Address, so I can contact with you?</li>
-   <li type="circle">For any question or detailed information:MY EMAIL 1035456235@qq.com. I am willing to help you :).</li>
+   <li type="circle">For any question or detailed information:MY EMAIL YeaTmeRet@gmail.com OR 1035456235@qq.com. I am willing to help you :).</li>
 
    <li type="disc">The files in MEDToolBox seems a little mess?</li>
    <li type="circle">MEDToolBox folder includes more than 100 files that's why I upload a rar file. Of course I could remove some files, for    example I could remove CollisionDetectionInteractorStyle1.h and CollisionDetectionInteractorStyle1.cpp. In fact I only use CollisionDetectionInteractorStyle6.h and CollisionDetectionInteractorStyle6.cpp, but in my opinion the CollisionDetectionInteractorStyle1 is the original version of the CollisionDetectionInteractorStyle6, so I keep it in case I may use it. Maybe that is a little weird, but I guess every developer has his won weird things like this habit for me.~ I may remove these "redundant files" when the work is done.</li>
