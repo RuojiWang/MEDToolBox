@@ -2,7 +2,7 @@
 # MEDToolBox
 ### MEDToolBox is your unique medical toolbox for maxillofacial preoperative planning.
  <html>
- <div  align="right">
+ <div  align="center">
  <img src="https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/MEDToolBox-is-your-unique-skill.png"/>
  </div>
  </html>
