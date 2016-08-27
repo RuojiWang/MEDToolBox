@@ -17,7 +17,7 @@
  </small>
 
  <div  align="center">
- <img src="https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/function-distribution-map.png"/>
+ <img src="https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/function-distribution-map-english.png"/>
  </div>
  
 ***
