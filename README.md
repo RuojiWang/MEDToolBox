@@ -11,9 +11,9 @@
  <small>
  * MEDToolBox is your medical toolbox for maxillofacial preoperative planning. My first impression of the software engineer. It comes from a national 863 plan in China. This software is a preoperative planning system based on VTK&ITK. 
  
- * It includes many functions related to cranial and maxillofacial surgery. The use of the implicit function to make guide plane is an innovative function, which makes it possible to get any size and shape of the maxillofacial mesh. 
+ * It includes many functions related to cranial and maxillofacial surgery. The use of the implicit function to make guide plate is an innovative function, which makes it possible to get any size and shape of the maxillofacial mesh. 
  
- * As a preoperative planning the MEDToolBox has five modes to complete a series of maxillofacial operation, such as reflection mode guideplane mode and collision detection mode. The following picture shows the function distribution.
+ * As a preoperative planning the MEDToolBox has five modes to complete a series of maxillofacial operation, such as reflection mode guide plate mode and collision detection mode. The following picture shows the function distribution.
  </small>
 
  <div  align="center">
@@ -27,13 +27,13 @@
  <small>
  * The interface of the MEDToolBox is developed by using QT framework technology, the logic part of the system is based on VTK open source library. 
  
- * The system can be divided into interactor, renderer, render window and other components corresponding to data processing, rendering and display. If we look at the system from the functional view, The system can also be divided into the following five modules: file module, measurement module, guide plane module, reflection module and collision detection module. Switch between the five modules can achieve a series of complex maxillofacial preoperative design and planning operation. 
+ * The system can be divided into interactor, renderer, render window and other components corresponding to data processing, rendering and display. If we look at the system from the functional view, The system can also be divided into the following five modules: file module, measurement module, guide plate module, reflection module and collision detection module. Switch between the five modules can achieve a series of complex maxillofacial preoperative design and planning operation. 
  
  * The five modules correspond to the five groups interactive menu, such design reference the architecture of VTK, making the structure of the entire system becomes more clear, more easy to maintain and less coupling. And such design also So benefits the stability and robustness of the system. 
  
  * Each interactor registers an event listener, when the there is a warning or error, the messages will be writed into system log, these message will help us restore use scene and maintenance the system. Each interactor inherit from the VTK interactive class while using QT signals and slots mechanism implementation of the right mouse button menu function.
 
- * The following twelve pictures are divided into five groups, Each group contains two pictures, except the last one contains four pictures. The five groups of pictures show what the interface looks like when you interact in that mode respectively. The five modes from top to bottom are: file mode  which mainly deal with the import/export of maxillofacial data simple and data operation like merge and interaction mode operation, measurement mode which mainly deal with the measure of the maxillofacial data, reflection mode which mainly deal with anything about maxillofacial repair by using symmetry, collision detection mode which mainly deal with the collision detect of the maxillofacial data, guideplane mode which mainly deal with the fixation and defect of the maxillofacial data.
+ * The following twelve pictures are divided into five groups, Each group contains two pictures, except the last one contains four pictures. The five groups of pictures show what the interface looks like when you interact in that mode respectively. The five modes from top to bottom are: file mode  which mainly deal with the import/export of maxillofacial data simple and data operation like merge and interaction mode operation, measurement mode which mainly deal with the measure of the maxillofacial data, reflection mode which mainly deal with anything about maxillofacial repair by using symmetry, collision detection mode which mainly deal with the collision detect of the maxillofacial data, guide plate mode which mainly deal with the fixation and defect of the maxillofacial data.
  </small>
 
  <img src="https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/switch-meun.png" height="390" width="415"/>
@@ -45,14 +45,14 @@
  <img src="https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/collision-detection-mode-interface.png" height="390" width="415"/>
  <img src="https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/collision-detection-mode-detection-interface.png" height="390" width="415"/>
  
- <img src="https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/guideplane-mode-interface.png" height="390" width="415"/>
- <img src="https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/guideplane-mode-draw-surface-curve-interface.png" height="390" width="415"/>
+ <img src="https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/guide-plate-mode-interface.png" height="390" width="415"/>
+ <img src="https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/guide-plate-mode-draw-surface-curve-interface.png" height="390" width="415"/>
 
- <img src="https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/clip-plane-from-guideplane-mode-interface-1.png" height="390" width="415"/>
- <img src="https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/clip-plane-from-guideplane-mode-interface-2.png" height="390" width="415"/>
+ <img src="https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/clip-plate-from-guide-plate-mode-interface-1.png" height="390" width="415"/>
+ <img src="https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/clip-plate-from-guide-plate-mode-interface-2.png" height="390" width="415"/>
  
- <img src="https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/clip-mesh-from-guideplane-mode-interface-1.png" height="390" width="415"/>
- <img src="https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/thickened-mesh-from-guideplane-mode-interface.png" height="390" width="415"/>
+ <img src="https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/clip-mesh-from-guide-plate-mode-interface-1.png" height="390" width="415"/>
+ <img src="https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/thickened-mesh-from-guide-plate-mode-interface.png" height="390" width="415"/>
  
 ***
 
@@ -97,7 +97,7 @@
  * 2.0 integrated all interactive mode.
  * 2.2 added log record function and registered listener event.
  * 3.0 reconstructed all the code and mode.
- * next version: repair the bug in the collision detection mode and guideplane mode.
+ * next version: repair the bug in the collision detection mode and guide plate mode.
    * switch the collision detection function may cause file in the renderer remove. 
    * implicit function may not get the craniofacial data mesh when input strange point data.
    * sometimes double click to open the right menu.
@@ -141,7 +141,7 @@ limitations under the License.
    <li type="circle">MEDToolBox folder includes more than 100 files that's why I upload a rar file. Of course I could remove some files, for    example I could remove CollisionDetectionInteractorStyle1.h and CollisionDetectionInteractorStyle1.cpp. In fact I only use CollisionDetectionInteractorStyle6.h and CollisionDetectionInteractorStyle6.cpp, but in my opinion the CollisionDetectionInteractorStyle1 is the original version of the CollisionDetectionInteractorStyle6, so I keep it in case I may use it. Maybe that is a little weird, but I guess every developer has his won weird things like this habit for me.~ I may remove these "redundant files" when the work is done.</li>
 
    <li type="disc">What's the advantage and disadvantage of the MEDToolBox?</li>
-   <li type="circle">The advantange of the MEDToolBox is the use of the implicit function to make guide plane is an innovative function, which makes it possible to get any size and shape of the maxillofacial mesh. As a preoperative planning the MEDToolBox has many modes to complete a series of maxillofacial operation, such as reflection mode guideplane mode and collision detection mode.;The disadvantage of the MEDToolBox is that the VTK is designed as a common interactive framework, so that VTK has to take many things into consideration, which cause the low inefficient. Unless redesign or rewrite VTK from the bottom, VTK can not be effective.</li>
+   <li type="circle">The advantange of the MEDToolBox is the use of the implicit function to make guide plate is an innovative function, which makes it possible to get any size and shape of the maxillofacial mesh. As a preoperative planning the MEDToolBox has many modes to complete a series of maxillofacial operation, such as reflection mode guide plate mode and collision detection mode.;The disadvantage of the MEDToolBox is that the VTK is designed as a common interactive framework, so that VTK has to take many things into consideration, which cause the low inefficient. Unless redesign or rewrite VTK from the bottom, VTK can not be effective.</li>
 
    <li type="disc">Why is the GUI(your picture) shows MEDToolBox3 not MEDToolBox?</li>
    <li type="circle">After the reconstruction and system-level adjustment, I guess now MEDToolBox is its 3.0 version.</li>
