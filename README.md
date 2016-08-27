@@ -27,9 +27,9 @@
  <small>
  * The interface of the MEDToolBox is developed by using QT framework technology, the logic part of the system is based on VTK open source library. 
  
- * The system can be divided into interactor, renderer, render window and other components corresponding to data processing, rendering and display. If we look at the system from the functional view, The system can also be divided into the following five modules: file module, measurement module, guide plate module, reflection module and collision detection module. Switch between the five modules can achieve a series of complex maxillofacial preoperative design and planning operation. 
+ * The system can be divided into interactor, renderer, render window and other components corresponding to data processing, rendering and display. If we look at the system from the functional view, The system can also be divided into the following five modes: file mode, measurement mode, guide plate mode, reflection mode and collision detection mode. Switch between the five modes can achieve a series of complex maxillofacial preoperative design and planning operation. 
  
- * The five modules correspond to the five groups interactive menu, such design reference the architecture of VTK, making the structure of the entire system becomes more clear, more easy to maintain and less coupling. And such design also So benefits the stability and robustness of the system. 
+ * The five modes correspond to the five groups interactive menu, such design reference the architecture of VTK, making the structure of the entire system becomes more clear, more easy to maintain and less coupling. And such design also So benefits the stability and robustness of the system. 
  
  * Each interactor registers an event listener, when the there is a warning or error, the messages will be writed into system log, these message will help us restore use scene and maintenance the system. Each interactor inherit from the VTK interactive class while using QT signals and slots mechanism implementation of the right mouse button menu function.
 
