@@ -55,6 +55,16 @@
  <img src="https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/thickened-mesh-from-guide-plate-mode-interface.png" height="390" width="415"/>
  
 ***
+## Advantage&Example
+  <small>
+  * the advantage of the implicit function is that you can adjust the shape and size of the funciton to clip. Other softwares use a method of erasing data. For example you are deal with dicoms, you should erase dicom piece by piece to get the mesh. Once you make a mistake in any piece of dicom you may waste lots of time to find the dicom piece and erase it again. What's worse is that most time the mistake of erasing a piece is not obvious. So the use of implicit function means relatively higher efficiency.
+  
+  * The following four pictures and four steps to show how to make guide plate for a patient. Each picture corresponds to a step.In case you are not satisfied you can do pick point and adjust implicit funciton step over and over again. Try both projection point surface point you may get better result.
+  
+
+  </small>
+
+***
 
 ## Environment Configuration
  <small>
