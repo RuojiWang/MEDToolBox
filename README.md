@@ -66,7 +66,13 @@
     * firstly, open the original maxillofacial data and find position to fix the plate. What need to pay attention to is that only the lower half part of maxillofacial or the joint of the maxillofacial can fix the plate. For the following example we can use the temporomandibular joint to fix plate.
     * secondly, use clip plane function until we get the mesh near the symmetric position joint. the smaller the data, the easier the later work.
     * then, use the mouse to pick point of implicit function. drag the green point(point of the implicit) to adjust the size and shape of the implicit function until you are satisfied. If projection point performs not that good try surface point.
-    * finally, clip plate and see what you get in the preview window. You do not need to clip the same shape as the missing part, generally speaking, the mesh is accepted as long as it can support the corresponding muscle and can be fixed. you can see the mesh I clip is not the same as the missing part.
+    * finally, clip plate and see what you get in the preview window. You do not need to clip the same shape as the missing part, generally speaking, the mesh is accepted as long as it can support the corresponding muscle and can be fixed. you can see the mesh I clip is not the same as the missing part. When you are satisfied the mesh then thick it about 2mm, then the guide plate is done.</br>
+    
+ <img src="https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/clip-plate-from-guide-plate-mode-interface-1.png" height="390" width="415"/>
+ <img src="https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/clip-plate-from-guide-plate-mode-interface-2.png" height="390" width="415"/>
+ 
+ <img src="https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/clip-plate-from-guide-plate-mode-interface-1.png" height="390" width="415"/>
+ <img src="https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/clip-plate-from-guide-plate-mode-interface-2.png" height="390" width="415"/>
 
   </small>
 
