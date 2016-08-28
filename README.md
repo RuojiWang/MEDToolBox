@@ -29,7 +29,7 @@
  
  * The system can be divided into interactor, renderer, render window and other components corresponding to data processing, rendering and display. If we look at the system from the functional view, The system can also be divided into the following five modes: file mode, measurement mode, guide plate mode, reflection mode and collision detection mode. Switch between the five modes can achieve a series of complex maxillofacial preoperative design and planning operation. 
  
- * The five modes correspond to the five groups interactive menu, such design reference the architecture of VTK, making the structure of the entire system becomes more clear, more easy to maintain and less coupling. And such design also So benefits the stability and robustness of the system. 
+ * The five modes correspond to the five groups interactive menu, such design reference the architecture of VTK, making the structure of the entire system becomes more clear, more easy to maintain and less coupling. And such design also benefits the stability and robustness of the system. 
  
  * Each interactor registers an event listener, when the there is a warning or error, the messages will be writed into system log, these message will help us restore use scene and maintenance the system. Each interactor inherit from the VTK interactive class while using QT signals and slots mechanism implementation of the right mouse button menu function.
 
@@ -64,7 +64,7 @@
   
   * There are four pictures and four steps to show how to make guide plate for a patient. Each picture corresponds to a step. In case you are not satisfied with the mesh you get, you can do pick point and adjust implicit funciton step over and over again. Try both projection point surface point you may get better result, each way of point pick performs better in a particular type of data. 
     * firstly, open the original maxillofacial data and find position to fix the plate. What need to pay attention to is that only the lower half part of maxillofacial or the joint of the maxillofacial can fix the plate. For the following example we can use the temporomandibular joint to fix plate.
-    * secondly, use clip plane function until we get the mesh near the Symmetric position joint. the smaller the data, the easier the later work.
+    * secondly, use clip plane function until we get the mesh near the symmetric position joint. the smaller the data, the easier the later work.
     * then, use the mouse to pick point of implicit function. drag the green point(point of the implicit) to adjust the size and shape of the implicit function until you are satisfied. If projection point performs not that good try surface point.
     * finally, clip plate and see what you get in the preview window. You do not need to clip the same shape as the missing part, generally speaking, the mesh is accepted as long as it can support the corresponding muscle and can be fixed. you can see the mesh I clip is not the same as the missing part.
 
