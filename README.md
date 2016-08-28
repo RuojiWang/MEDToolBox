@@ -111,7 +111,7 @@
  * 2.2 added log record function and registered listener event.
  * 3.0 reconstructed all the code and mode.
  * next version: repair the bug in the collision detection mode and guide plate mode.
-   * switch the collision detection function may cause file in the renderer remove. 
+   * switch the collision detection function may cause file in the renderer removed. 
    * implicit function may not get the craniofacial data mesh when input strange point data.
    * sometimes double click to open the right menu.
    * sometimes file loaded rotate automaticly.
@@ -151,10 +151,10 @@ limitations under the License.
    <li type="circle">For any question or detailed information:MY EMAIL YeaTmeRet@gmail.com OR 1035456235@qq.com. I am willing to help you :).</li>
 
    <li type="disc">The files in MEDToolBox seems a little mess?</li>
-   <li type="circle">MEDToolBox folder includes more than 100 files that's why I upload a rar file. Of course I could remove some files, for    example I could remove CollisionDetectionInteractorStyle1.h and CollisionDetectionInteractorStyle1.cpp. In fact I only use CollisionDetectionInteractorStyle6.h and CollisionDetectionInteractorStyle6.cpp, but in my opinion the CollisionDetectionInteractorStyle1 is the original version of the CollisionDetectionInteractorStyle6, so I keep it in case I may use it. Maybe that is a little weird, but I guess every developer has his won weird things like this habit for me.~ I may remove these "redundant files" when the work is done.</li>
+   <li type="circle">MEDToolBox folder includes more than 100 files that's why I upload a rar file. Of course I could remove some files, for example I could remove CollisionDetectionInteractorStyle1.h and CollisionDetectionInteractorStyle1.cpp. In fact I only use CollisionDetectionInteractorStyle6.h and CollisionDetectionInteractorStyle6.cpp, but in my opinion the CollisionDetectionInteractorStyle1 is the original version of the CollisionDetectionInteractorStyle6, so I keep it in case I may use it. Maybe that is a little weird, but I guess every developer has his won weird things like this habit for me.~ I may remove these "redundant files" when the work is done.</li>
 
    <li type="disc">What's the advantage and disadvantage of the MEDToolBox?</li>
-   <li type="circle">The advantange of the MEDToolBox is the use of the implicit function to make guide plate is an innovative function, which makes it possible to get any size and shape of the maxillofacial mesh. As a preoperative planning the MEDToolBox has many modes to complete a series of maxillofacial operation, such as reflection mode guide plate mode and collision detection mode.;The disadvantage of the MEDToolBox is that the VTK is designed as a common interactive framework, so that VTK has to take many things into consideration, which cause the low inefficient. Unless redesign or rewrite VTK from the bottom, VTK can not be effective.</li>
+   <li type="circle">The advantange of the MEDToolBox is the use of the implicit function to make guide plate is an innovative function, which makes it possible to get any size and shape of the smooth-edge maxillofacial mesh. As a preoperative planning the MEDToolBox has many modes to complete a series of maxillofacial operation, such as reflection mode guide plate mode and collision detection mode.;The disadvantage of the MEDToolBox is that the VTK is designed as a common interactive framework, so that VTK has to take many things into consideration, which cause the low inefficient. Unless redesign or rewrite VTK from the bottom, VTK can not be effective.</li>
 
    <li type="disc">Why is the GUI(your picture) shows MEDToolBox3 not MEDToolBox?</li>
    <li type="circle">After the reconstruction and system-level adjustment, I guess now MEDToolBox is its 3.0 version.</li>
@@ -163,7 +163,7 @@ limitations under the License.
    <li type="circle">I think the GitHub means a new land for my software career. It's the first time I take part in the social software development. I have little experience I may commit many mistakes. But what's more important, I am willing to listen to any advice and work harder.</li>
 
    <li type="disc">Your environment configuration for Linux and Windows seems too simple?</li>
-   <li type="circle">Actually I only develop MEDToolBox on Windows, so I upload dll&lib I compile on the pcloud, I am not familiar with Linux environment configuration, But I guess it has many in common with that on Windows. If I write the cmake process on Windows or Linux there, the file will be too long. So I only provide dll&lib which I compile here, for other things, use the Google you will get them, not that hard.</li>
+   <li type="circle">Actually I only develop MEDToolBox on Windows, so I upload dll&lib I compile on the pcloud, I am not familiar with Linux environment configuration, But I guess it has many in common with what on Windows. If I write the cmake process on Windows or Linux there, the file will be too long. So I only provide dll&lib which I compile here, for other things, use the Google you will get them, not that hard.</li>
    
    <li type="disc">I see a folder named ITK, but you do not mention it anywhere?</li>
    <li type="circle">So far, all the functions in the MEDToolBox3 are based on VTK&QT, I plan to add some new feature which need ITK library, that is to say, I will use ITK in later version. So I upload the ITK files.</li>
