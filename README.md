@@ -60,8 +60,8 @@
   * the advantage of the implicit function is that you can adjust the shape and size of the funciton to clip. Other softwares use a method of erasing data. For example you are deal with dicoms, you should erase dicom piece by piece to get the mesh. Once you make a mistake in any piece of dicom you may waste lots of time to find the dicom piece and erase it again. What's worse is that most time the mistake of erasing a piece is not obvious. So the use of implicit function means relatively higher efficiency.
   
   * The following four pictures and four steps to show how to make guide plate for a patient. Each picture corresponds to a step.In case you are not satisfied you can do pick point and adjust implicit funciton step over and over again. Try both projection point surface point you may get better result.
-    * first, open the original maxillofacial data and find position to fix the plate. What need to pay attention to is that only the lower half part of maxillofacial or the joint of the maxillofacial can fix the plate. For the following example we can use the temporomandibular joint.
-    * second, use clip plane function until we get the mesh near the Symmetric position joint. the smaller the data, the easier the later work.
+    * firstly, open the original maxillofacial data and find position to fix the plate. What need to pay attention to is that only the lower half part of maxillofacial or the joint of the maxillofacial can fix the plate. For the following example we can use the temporomandibular joint.
+    * secondly, use clip plane function until we get the mesh near the Symmetric position joint. the smaller the data, the easier the later work.
     * then use mouse to pick point of implicit function. drag the green point(point of the implicit) to adjust the size and shape of the implicit function until you are satisfied.
     * finally, clip plate and see what you get in the preview window. You do not need to clip the same shape as the missing part, generally speaking, the mesh is accepted as long as it can support the corresponding muscle and can be fixed. you can see the mesh I clip is not the same as the missing part.
 
