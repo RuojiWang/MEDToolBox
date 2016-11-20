@@ -75,6 +75,11 @@
  <img src="https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/example-step-3.png" height="390" width="415"/>
  <img src="https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/example-step-4.png" height="390" width="415"/>
 
+  * There are some tips for better experience.
+    * Try to use keyboard shortcuts for interaction. Button "A" means that interact in actor mode. Button "C" means that interact in camera mode. Button "R" means reset actors. In actor mode, user can move any actors but not camera. In camera mode, user can move the camera but not actors. most of the five interactive modes can switch between actors mode and camera mode. 
+    * When it comes to wheel in the middle of the mouse, the wheel rolls forward means that camera goes closer to actors which means that actors will look bigger. When the wheel rolls back, the situation is contrary to the previous case.
+    * User can combine five different modes many times to make good preoperative planning.
+
 ***
 
 ## Environment Configuration
