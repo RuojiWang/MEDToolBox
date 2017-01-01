@@ -14,6 +14,9 @@
  * It includes many functions related to cranial and maxillofacial surgery. **The use of the implicit function to make guide plate is an innovative function, which makes it possible to get any size and shape of the maxillofacial mesh.** 
  
  * As a preoperative planning the MEDToolBox has five modes to complete a series of maxillofacial operation, such as reflection mode guide plate mode and collision detection mode. The following picture shows the function distribution.
+ 
+ * **According to the Pareto Principle, Only 20% is the most important things. Important imformation is marked in 
+bold.**
  </small>
 
  <div  align="center">
