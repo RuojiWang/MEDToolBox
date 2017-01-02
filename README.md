@@ -115,6 +115,12 @@ bold.**
  
 ***
 
+## Download
+ * Windows Debug 32-bit version of the MEDToolBox can be downloaded from https://my.pcloud.com/publink/show?code=XZ06XwZ9Yemy3iUwhSHSm0dgjDyQ8SOWhv7 You can find all the dll files needed and STL files for testing.
+ * You only need to put dll files in the appropriate position. For example, if you use Windows 7 64-bit operating system, just put them in C:\Windows\SysWOW64, then you can use it.
+ 
+***
+
 ##Update&version
  >I am busy recruiting recently, so update should be quite slow.
  
