@@ -121,14 +121,22 @@ bold.**
  <small>
  * 2.0 integrated all interactive mode.
  * 2.2 added log record function and registered listener event.
- * 3.0 reconstructed all the code and mode.
+ * 3.0 reconstructed all the code and mode. And complete almost all the functions.
+ * 2017-1-2 master version I fix the following BUGs
+   * render component repeats reading files data leads to exception.
+   * some modes can not save files to path which contains chinese character, but can read files from path which contains chinese character.
+   * switch between methods in collision detection mode may change the position of model objects or cause exception.
+   * if there are not two object models in collision detection mode, message box will prompt twice but once is allowed.
+   * switch between methods of picking point in guide plate mode may cause exception. 
+   * when using other mode you can still pick point by the contourwidget which means mode haven't been changed.
+   * drag the point of the contourwidget to change the implict function when in the guide plate mode may cause exception. 
+   * clip multiple model objects by implicit function may cause system crash. 
+   * input non-numerical or illegal characters when thickening the guide mesh may cause exception. 
  * next version: repair the bug in the collision detection mode and guide plate mode.
-   * switch the collision detection function may cause file in the renderer removed. 
    * implicit function may not get the craniofacial data mesh when input strange point data.
    * sometimes double click to open the right menu.
    * sometimes file loaded rotate automaticly.
    * add feature of the force feedback device.
-   * add an automatic testing framework later.
    * merge the clip preview interface to the main interface to improve efficiency.
    * modify the detail of the interaction ot the implicit function to improve efficiency.
    
