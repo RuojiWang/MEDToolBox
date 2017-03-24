@@ -41,35 +41,42 @@ bold.**
  * **Each interactor registers an event listener, when the there is a warning or error, the messages will be writed into system log, these message will help us restore use scene and maintenance the system. Each interactor inherit from the VTK interactive class while using QT signals and slots mechanism implementation of the right mouse button menu function.**
  
  * The following twelve pictures are divided into five groups, Each group contains two pictures, except the last one contains four pictures. The five groups of pictures show what the interface looks like when you interact in that mode respectively. The five modes from top to bottom are: file mode  which mainly deal with the import/export of maxillofacial data simple and data operation like merge and interaction mode operation, measurement mode which mainly deal with the measure of the maxillofacial data, reflection mode which mainly deal with anything about maxillofacial repair by using symmetry, collision detection mode which mainly deal with the collision detect of the maxillofacial data, guide plate mode which mainly deal with the fixation and defect of the maxillofacial data.
- </small>
+</small>
 
+<div>
  <img src="https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/switch-meun.png" height="390" width="415"/>
- 
  <img src="https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/file-mode-interface.png" height="390" width="415"/>
+</div>
  
- <img src="https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/measurement-boundbox-interface.png" height="390" width="415"/>
- 
+<div>
+ <img src="https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/measurement-boundbox-interface.png" height="390" width="415"/> 
  <img src="https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/reflection-mode-interface.png" height="390" width="415"/>
+</div>
  
+<div>
  <img src="https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/collision-detection-mode-interface.png" height="390" width="415"/>
- 
  <img src="https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/collision-detection-mode-detection-interface.png" height="390" width="415"/>
+</div>
  
+<div>
  <img src="https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/guide-plate-mode-interface.png" height="390" width="415"/>
- 
  <img src="https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/guide-plate-mode-draw-surface-curve-interface.png" height="390" width="415"/>
+</div>
 
+<div>
  <img src="https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/clip-plate-from-guide-plate-mode-interface-1.png" height="390" width="415"/>
- 
  <img src="https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/clip-plate-from-guide-plate-mode-interface-2.png" height="390" width="415"/>
- 
+</div>
+
+<div>
  <img src="https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/clip-mesh-from-guide-plate-mode-interface-1.png" height="390" width="415"/>
- 
  <img src="https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/thickened-mesh-from-guide-plate-mode-interface.png" height="390" width="415"/>
- 
+</div>
+
 ***
 ## Advantage&Example
   <small>
+  
   * The advantages of the MEDToolBox are the following:
      * The use of the computer-assisted maxillofacial preoperative planning has all the advantages of computer assisted surgery. It extends the limited vision space of the cranial and maxillofacial surgery, breaks through the limit of the traditional skull and maxillofacial surgery, and deepens the concept of the skull and maxillofacial surgery and surgical instruments. Especially, when it comes to avoiding operation risk, improving the operation accuracy, optimizing operation process, improving the operation of the planning efficiency.
      * **The use of the implicit function allows you to adjust the shape and size of the funciton to clip. With the help of implicit function you can get almost any shape and size of smooth-edge mesh. However, other softwares use a method of erasing data. For example if you are deal with dicoms, you should erase dicom piece by piece to get the mesh or mesh module. Once you made a mistake in any piece of dicom you may waste lots of time finding the wrong piece of dicom and erase it again. What's worse is that most time the wrong piece of dicom is not obvious, even someone tells you the wrong piece of dicom you may still need some time to find the mistake. So the use of implicit function means relatively higher efficiency.**
@@ -94,6 +101,7 @@ bold.**
 
 ## Environment Configuration
  <small>
+ 
  This software is based on VTK5.2 ITK4.4 and QT4.8(you may need QtDesigner or QTCreator to make QT more easy). 
  * For Linux, you may cmake it yourself. Use Google to find out how to cmake VTK5.2 and ITK4.4 for Linux.  
  * For Windows, you could download dll&lib from https://my.pcloud.com/publink/show?code=XZprOfZXDY03wBqtpS3eUctlW8hNRc3rMNX (VS2010 or other versions is recommended). Or you can use Google to find out how to cmake VTK5.2 and ITK4.4 for windows. 
@@ -103,6 +111,7 @@ bold.**
 
 ## File Catalog
  <small>
+ 
  MEDToolBox.rar include 3 types of files.
  * STLfiles folder(include stl files use for test)
  * MEDToolBox files(includes MEDToolBox.sln MEDToolBox.sdf) 
@@ -113,6 +122,7 @@ bold.**
 
 ## Build&Warm Reminder
  <small>
+ 
  * For windows put the ITK VTK and QT folder the same catalog like the following picture shows(open MEDToolBox.sln with txt you will know why). 
  * Rebuild it in the DEBUG&win32 mode.
  * Use right mouse button or click the menu to interact.
@@ -126,6 +136,7 @@ bold.**
 ***
 
 ## Download
+
  * Windows Debug 32-bit version of the MEDToolBox can be downloaded from https://my.pcloud.com/publink/show?code=XZ06XwZ9Yemy3iUwhSHSm0dgjDyQ8SOWhv7 You can find all the dll files needed and STL files for testing.
  * You only need to put dll files in the appropriate position. For example, if you use Windows 7 64-bit operating system, just put them in C:\Windows\SysWOW64, then you can use it.
  
@@ -135,6 +146,7 @@ bold.**
  >I am busy recruiting recently, so update should be quite slow.
  
  <small>
+ 
  * 2.0 integrated all interactive mode.
  * 2.2 added log record function and registered listener event.
  * 3.0 reconstructed all the code and mode. And complete almost all the functions.
@@ -179,6 +191,7 @@ limitations under the License.
 ***
 
 ## FAQ
+
  <ol>
    <li type="disc">Why are you upload rar file instead of a folder which includes all the source code?</li>
    <li type="circle">Files in the MEDToolBox folder are more than 100, which is not all by GitHub.</li>
@@ -204,5 +217,6 @@ limitations under the License.
    <li type="disc">I see a folder named ITK, but you do not mention it anywhere?</li>
    <li type="circle">So far, all the functions in the MEDToolBox3 are based on VTK&QT, I plan to add some new feature which need ITK library, that is to say, I will use ITK in later version. So I upload the ITK files.</li>
  </ol>
+ 
 ***
 </td>
