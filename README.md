@@ -32,6 +32,7 @@ bold.**
 ## Software Design&Architecture
 
  <small>
+ 
  * The GUI of the MEDToolBox is developed by using QT framework technology, the logic part of the system is based on VTK open source library. 
  
  * **The system can be divided into interactor, renderer, render window and other components corresponding to data processing, rendering and display. If we look at the system from the functional view, The system can also be divided into the following five modes: file mode, measurement mode, guide plate mode, reflection mode and collision detection mode. Switch between the five modes can achieve a series of complex maxillofacial preoperative design and planning operation.** 
@@ -142,7 +143,7 @@ bold.**
  
 ***
 
-##Update&version
+## Update&version
  >I am busy recruiting recently, so update should be quite slow.
  
  <small>
@@ -173,7 +174,7 @@ bold.**
 
 ***
 
-##License
+## License
 
 Copyright [2016] [RuojiWang of copyright owner | YeaTmeRet@gmail.com | 1035456235@qq.com]
 
