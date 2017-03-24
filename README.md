@@ -93,7 +93,7 @@ bold.**
 
  <div >
  <img src="https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/blank-for-occupancy.png" width="40"/>
- <img src="https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/guide-plate-mode-example-steps.png" width="800"/>
+ <img src="https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/guide-plate-mode-example-steps.png" width="820"/>
  </div>
  
   * There are some tips for better experience.
@@ -139,7 +139,7 @@ bold.**
  * **BUT I GUESS YOU WILL NOT MEET ABOVE I THINK I HAVE DONE THAT FOR YOU.**
  
  <div>
- <img src="https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/blank-for-occupancy.png" width="20"/>
+ <img src="https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/blank-for-occupancy.png" width="10"/>
  <img src="https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/how-to-place-folders.png" />
  </div>
  
