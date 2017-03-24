@@ -4,8 +4,8 @@
 
 ### MEDToolBox is your unique medical toolbox for maxillofacial preoperative planning.
  <div align="center">
- <img src="https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/MEDToolBox-is-your-unique-skill-2.png" height="545" width="415"/>
- <img src="https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/MEDToolBox-is-your-unique-skill-4.png" height="545" width="415"/>
+ <img src="https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/MEDToolBox-is-your-unique-skill-2.png" height="555" width="425"/>
+ <img src="https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/MEDToolBox-is-your-unique-skill-4.png" height="555" width="425"/>
  </div>
  
 ***
