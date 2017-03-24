@@ -12,6 +12,7 @@
 ## Brief Introduction
  
  <small>
+ 
  * MEDToolBox is your medical toolbox for maxillofacial preoperative planning. My first impression of the software engineer. It comes from a national 863 project in China. This software is a preoperative planning system based on VTK&ITK. 
  
  * It includes many functions related to cranial and maxillofacial surgery. **The use of the implicit function to make guide plate is an innovative function, which makes it possible to get any size and shape of the maxillofacial mesh.** 
