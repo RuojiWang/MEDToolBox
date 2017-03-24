@@ -89,7 +89,8 @@ bold.**
      * Firstly, open the original craniomaxillofacial data and find position to fix the plate as shown by picture (a) below. What need to pay attention to is that only the lower half part of craniomaxillofacial or the joint of the craniomaxillofacial can fix the plate. For the following example we can use the temporomandibular joint to fix plate.
      * Secondly, use clip plane function until we get the mesh near the symmetric position joint. the smaller the data, the easier the later work, as shown by picture (b)(c)(d).
      * Then, use the mouse to pick point of implicit function. Drag the green point(point of the implicit) to adjust the size and shape of the implicit function until you are satisfied, as shown by picture (e)(f). If projection point performs not that good try surface point.
-     * Finally, clip plate and see what you get in the preview window. You do not need to clip the same shape as the missing part, generally speaking, the mesh is accepted as long as it can support the corresponding muscle and can be fixed. As shown by the picture (g)(h), you can see the mesh I clip is not the same as the missing part. When you are satisfied the mesh then thick it about 2mm, then the guide plate is done. And do not forget to save it.
+     * Finally, clip plate and see what you get in the preview window. You do not need to clip the same shape as the missing part, generally speaking, the mesh is accepted as long as it can support the corresponding muscle and can be fixed. As shown by the picture (g)(h), you can see the mesh I clip is not the same as the missing part. When you are satisfied the mesh then thick it about 2mm, then the guide plate is done. And do not forget to save it.
+
 
  <div >
  <img src="https://github.com/RuojiWang/MEDToolBox/raw/master/images-folder/blank-for-occupancy.png" width="40"/>
